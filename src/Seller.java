@@ -2,11 +2,11 @@ import java.time.LocalDate;
 
 public class Seller {
 
-    String name;
-    LocalDate dateOfBirth;
-    int signedContractsCount;
-    double carrotSalesInTons;
-    boolean isSeniorSeller;
+    private String name;
+    private LocalDate dateOfBirth;
+    private int signedContractsCount;
+    private double carrotSalesInTons;
+    private boolean isSeniorSeller;
 
     public String getName() {
         return name;
